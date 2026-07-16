@@ -6,15 +6,15 @@
 <title>Entender la China actual · Mini-curso</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Figtree:wght@400;500;600;700;800&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
 <style>
 :root{
   --bg:#ffffff; --surface:#ffffff; --surface-2:#f4f5f6; --paper:#ffffff;
   --ink:#1f1d1a; --muted:#6b6862; --line:#e8e7e3;
   --accent:#c0392b; --accent-2:#98271c; --accent-soft:#f9e9e7;
-  --sans:'Plus Jakarta Sans',system-ui,-apple-system,Segoe UI,Roboto,sans-serif;
-  --serif:'Space Grotesk','Plus Jakarta Sans',system-ui,sans-serif;
-  --sb:326px; --tb:60px; --maxw:800px; --c:#c0392b; --block:#c0392b;
+  --sans:'Figtree',system-ui,-apple-system,Segoe UI,Roboto,sans-serif;
+  --serif:'Space Grotesk','Figtree',system-ui,sans-serif;
+  --sb:326px; --tb:60px; --maxw:920px; --c:#c0392b; --block:#c0392b;
 }
 html[data-theme="dark"]{
   --bg:#15130f; --surface:#1c1a16; --surface-2:#26231c; --paper:#1a1813;
@@ -72,7 +72,9 @@ a:hover{text-decoration:underline}
 .doc-head > p{font-family:var(--sans);font-size:20px}
 
 /* secciones A-M */
-.content{font-family:var(--sans);font-size:20px;line-height:1.75;--c:var(--block)}
+.content{font-family:var(--sans);font-size:20px;line-height:1.8;--c:var(--block)}
+.content em{font-style:normal;font-weight:600}
+.sec-body>p,.doc-head>p{max-width:80ch}
 .block-tag{display:inline-block;font-family:var(--sans);font-size:12px;font-weight:800;letter-spacing:.08em;text-transform:uppercase;
   color:#fff;background:var(--block);padding:5px 12px;border-radius:20px;margin:0 0 10px}
 .lesson-map{margin:8px 0 24px;border:1px solid color-mix(in srgb,var(--block) 22%,var(--line));
